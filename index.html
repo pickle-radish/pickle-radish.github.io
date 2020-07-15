@@ -20,6 +20,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/resume.css" rel="stylesheet">
 
 </head>
 
@@ -52,6 +53,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#project">Project</a>
+        </li>
      
       </ul>
     </div>
@@ -64,10 +68,10 @@
         <h1 class="mb-0">나
           <span class="text-primary">상문</span>
         </h1>
-        <div class="subheading mb-5">010-8306-9876 .
+        <div class="subheading mb-5">
           <a href="mailto:tkdansg0222@gmail.com">tkdansg0222@gmail.com</a>
         </div>
-        <p class="lead mb-5">인생은 자유롭고 단순하게, 주변 사람들은 저를 보며 하나같이 다 너처럼 살고 싶다, 너처럼 살아야 한다, 넌 진짜 개발을 하기 위해 태어났다 말하는 자유로운 개발자</p>
+        <p class="lead mb-5">인생은 자유롭고 단순하게, 주변 사람들은 저를 보며 하나같이 다 너처럼 살고 싶다, 너처럼 살아야 한다, <br>넌 진짜 개발을 하기 위해 태어났다 말하는 자유로운 개발자</p>
         <div class="social-icons">
           <a href="https://www.instagram.com/pickle_radish/">
             <i class="fab fa-linkedin-in"></i>
@@ -166,23 +170,14 @@
           <li class="list-inline-item">
             <i class="fab fa-github"></i>
           </li>
+          <li class="list-inline-item">
+            <i class="fab fa-python"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-vuejs"></i>
+          </li>
         </ul>
 
-        <!-- <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul> -->
       </div>
     </section>
 
@@ -191,8 +186,111 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>일단 게임! 롤! 스트레스 해소에는 아무 생각 없이 게임하는게 최고!</p>
+        <p>일단 게임! 롤! 카트! 스트레스 해소에는 아무 생각 없이 게임하는게 최고!</p>
         <p class="mb-0">노는건 다 좋다 그래도 할때는 하는 사람!</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="project">
+      <div class="w-100">
+        <h2 class="mb-5">Project</h2>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content  project-item">
+            <h3 class="mb-0">Mining Glod</h3>
+            <p>첫번째 프로젝트 (페어 프로젝트)</p> 
+            <br>
+            <div class="subheading mb-3">프로젝트 설명</div> 
+            <p>node-js를 이용한 간단한 웹 어플리케이션 게임</p>
+            <div class="subheading mb-3">기술 스택</div> 
+            <p>ejs, nodejs, mysql</p>
+            <div class="subheading mb-3">배운점</div> 
+            <p>콜백 헬을 해결하기 위한 프로미스 객체 사용 방법을 공부</p>
+            <p>db 쿼리를 직접 작성해서 어떤식으로 데이터베이스를 사용하는지 직접 경험</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2020 1/31 - 2/5</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content  project-item">
+            <h3 class="mb-0">교회 명단관리 시스템</h3>
+            <p>두번째 프로젝트 (솔로 프로젝트)</p> 
+            <br>
+            <div class="subheading mb-3">프로젝트 설명</div> 
+            <p>react와 sequelize를 사용해서 교회의 전체 명단과 출석현황을 관리</p>
+            <div class="subheading mb-3">기술 스택</div> 
+            <p>react, nodejs, sequelize </p>
+            <div class="subheading mb-3">배운점</div> 
+            <p>react로 프로젝트 구성, orm중 하나인 sequelize사용</p>
+            <p>crud를 직접 구현하고 보안 적인 측면을 고려해서 구현</p>
+            <p>부트스르랩, 그래프 등의 ui구현의 능력 향상</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2020 2/21 - 3/10</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content  project-item">
+            <h3 class="mb-0">How Mask</h3>
+            <p>세번째 프로젝트 (팀 프로젝트)</p> 
+            <br>
+            <div class="subheading mb-3">프로젝트 설명</div> 
+            <p>오픈 API를 이용해서 약국에 판매하는 마스크 재고 확인 웹사이트</p>
+            <div class="subheading mb-3">기술 스택</div> 
+            <p>react. nodejs, sequelize, kakaomap API, 마스크 재고 open API, </p>
+            <div class="subheading mb-3">배운점</div> 
+            <p>API를 활용해 지도와 실시간 재고 수량 파악</p>
+            <p>react라는 프레임웍의 기본적인 injectino 공격에 대한 방어 확인</p>
+            <p>csurf, helmet의 보안 모듈 사용</p>
+            <p>팀원들간의 의사소통의 중요성</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2020 3/20 - 4/10</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content  project-item">
+            <h3 class="mb-0">MRP</h3>
+            <p>네번째 프로젝트 (팀 프로젝트)</p> 
+            <br>
+            <div class="subheading mb-3">프로젝트 설명</div> 
+            <p>의약품 유통 관리 시스템 (의약품 대상의 ERP)</p>
+            <div class="subheading mb-3">기술 스택</div> 
+            <p>react. nodejs, sequelize, ubuntu, Hyperledger Fabric Network</p>
+            <div class="subheading mb-3">배운점</div> 
+            <p>역할 분배의 중요성</p>
+            <p>프로젝트의 문서화</p>
+            <p>블록체인 네트워크 부분을 쉘 스크립트로 직접 다 구현하면서 전체적인 구조와 흐름을 파악</p>
+            
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2020 4/29 - 6/4</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content  project-item">
+            <h3 class="mb-0">Easy Name Card</h3>
+            <p>다섯번째 프로젝트 (솔로 프로젝트)</p> 
+            <br>
+            <div class="subheading mb-3">프로젝트 설명</div> 
+            <p>교회 수련회나 회사 워크샾 등에 목걸이 명찰을 손쉽게 만드는 웹사이트</p>
+            <div class="subheading mb-3">기술 스택</div> 
+            <p>vuejs, vuex, firebase, Oauth2, js module(jspdf, xlsx), netlify</p>
+            <div class="subheading mb-3">배운점</div> 
+            <p>netlify, firebase를 통한 온라인 배포</p>
+            <p>직접 쓰려고 만들다 보니 세부적인 요구사항까지 신경써서 프로젝트 진행</p>
+            <br>
+            <p><a href="https://quizzical-easley-c2211e.netlify.app/">https://quizzical-easley-c2211e.netlify.app/</a> 아직 사용자 설명서를 구현하지 못함</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2020 6/22 - 7/6</span>
+          </div>
+        </div>
+
+      </div>
       </div>
     </section>
 
